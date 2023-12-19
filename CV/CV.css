@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+header{
+    background-color:rgb(155, 145, 145,0.5) ;
+    padding-block: 0.5rem;
+}
+.photo,.lemzo{
+    display: inline-block;
+    margin-inline: 1.5rem;
+}
+
+main{
+    margin-bottom: 2rem;
+    border: 1px solid black;
+}
+h2{
+    margin-block: 1rem;
+}
+/* h2::after{
+    content: "\002022 \002022 \002022 \002022 \002022";
+    font-size: 50px;
+
+} */
+article{
+    max-width: 80%;
+    position:absolute;
+}
+aside{
+    width: 20%;
+    word-break: break-word;
+    border-right: 1px solid black;
+    background-color:rgb(155, 145, 145,0.5);
+}
+article,aside{
+    display: inline-block;
+    
+    padding: 1rem;
+}
+
+.sen{
+    display: inline;
+}
+address{
+    text-indent: 3rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+    opacity: 1;
+}
+a:hover,a:active{
+   opacity: 0.5;
+}
+.contact li{
+    list-style-position: inside;
+    list-style-type:none;
+    font-size: 1.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.contact li:first-child{
+    list-style-image: url("Images/tel.ico");
+}
+
+.contact li:nth-child(2){
+    list-style-image:url("Images/adress.ico");
+}
+
+.contact li:nth-child(3)
+{
+    list-style-image: url("Images/mail.ico");
+}
+
+.contact li:last-child{
+    list-style-image: url("Images/linkedin.ico");
+}
+
+
+/*Article*/
+.comp ul{
+    margin-left: 1rem;
+}
+
+.comp td:last-child li{
+    list-style-type: none;
+}
+.exp table
+{
+    width:100%;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+.exp th:first-child{
+    width: 35%;
+}
+
+.exp th{
+    padding-right: 2rem;
+}
+
+.exp ul{
+    margin-left: 2.5rem;
+}
+
+strong{
+    font-weight: 700;
+}
+
+.lang p{
+    margin-bottom: 1rem;
+}
